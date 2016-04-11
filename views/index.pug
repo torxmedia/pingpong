@@ -6,7 +6,9 @@ html(lang="en")
     include ../public/style/css/application.css
   body
     #game
-      #player1
-        h1 player 1
-      #player2
-        h2 player 2
+      #player1.player-column
+        h1 Player 1
+        p#player1__score.score 0
+      #player2.player-column
+        h2 Player 2
+        p#player2__score.score 0

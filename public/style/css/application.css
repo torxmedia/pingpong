@@ -35,7 +35,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  color: #FFF;
+  font-size: 10vw;
+  font-family: 'Helvetica'; }
+
 #game {
   width: 100%;
   height: 100vh;
-  background: red; }
+  background: #FFF;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+.player-column {
+  width: 50%;
+  text-align: center; }
+
+#player1 {
+  background: #F22613;
+  border-right: 1px solid #fff; }
+
+#player2 {
+  background: #446CB3;
+  border-left: 1px solid #fff; }

@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "gulp-sass": "^2.2.0",
+    "react": "^15.0.1"
   }
 }
