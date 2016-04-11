@@ -1,0 +1,23 @@
+{
+  "name": "pingpong",
+  "version": "1.0.0",
+  "description": "A simple ping pong score tracking app.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torxmedia/pingpong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torxmedia/pingpong/issues"
+  },
+  "homepage": "https://github.com/torxmedia/pingpong",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
